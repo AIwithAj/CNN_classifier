@@ -27,8 +27,8 @@ class PrepareCallnacks:
         )
 
     def get_tb_chkpt_callbacks(self):
-        return {
+        return [
             self.create_tb_callbacks,
             self._create_chkpt_callbacks
-        }
+        ]
     
