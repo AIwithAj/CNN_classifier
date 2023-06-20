@@ -2,5 +2,6 @@ from CnnClassifier.components.data_ingestion import DataIngestion
 from CnnClassifier.components.prepare_basemodel import PrepareBaseModel
 from CnnClassifier.components.prepare_callback import PrepareCallnacks
 from CnnClassifier.components.Training import Training
+from CnnClassifier.components.evaluation import Evaluation
 
 
